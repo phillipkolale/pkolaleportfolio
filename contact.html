@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Connect | Intake Portal</title>
+    <link rel="stylesheet" href="resort-style.css">
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">CREATIVE<span>.OPS</span></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Terminal</a></li>
+                    <li><a href="about.html">The Operator</a></li>
+                    <li><a href="services.html">Services Matrix</a></li>
+                    <li><a href="contact.html" class="active">Secure Connect</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-perspective-viewport" style="margin-top: 140px;">
+        <div class="interactive-3d-panel split-matrix-two" id="threeDCard">
+            
+            <div>
+                <div class="tagline-matrix">Communications Node</div>
+                <h2 class="headline-matrix">Let's Build <span>Something Secure</span></h2>
+                <p style="color: var(--text-muted); font-size: 15px; margin-bottom: 30px; line-height: 1.7;">
+                    Ready to scale your next project? Submit your requirements through this secure line. The target processing queue typically responds within 12 operational hours.
+                </p>
+                
+                <div style="font-family: monospace; font-size: 13px; color: var(--tech-blue);">
+                    <p style="margin-bottom: 10px;"><strong>LOCATION:</strong> Eldoret, Kenya</p>
+                    <p style="margin-bottom: 10px;"><strong>SECURE EMAIL:</strong> ops@vectornode.internal</p>
+                    <p><strong>STATUS:</strong> Accepting Projects</p>
+                </div>
+            </div>
+
+            <!-- Form Frame Elements -->
+            <div style="background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.03); padding: 35px; border-radius: 16px;">
+                <form id="cyberIntakeForm">
+                    <div class="input-channel-row">
+                        <label>Identify Yourself / Enterprise</label>
+                        <input type="text" id="clientIdentity" class="cyber-terminal-input" placeholder="e.g., Lead Project Manager" required>
+                    </div>
+                    <div class="input-channel-row">
+                        <label>Secure Response Email</label>
+                        <input type="email" id="clientEmail" class="cyber-terminal-input" placeholder="e.g., manager@enterprise.com" required>
+                    </div>
+                    <div class="input-channel-row">
+                        <label>Target Operational Matrix Branch</label>
+                        <select id="clientBranch" class="cyber-terminal-input" style="color: var(--text-muted);" required>
+                            <option value="Full Architecture System">Full-Scale Architecture (All 3 Disciplines)</option>
+                            <option value="Cyber Security Audit">Cyber Security Vulnerability Audit</option>
+                            <option value="Web Build Operation">Custom Web Application Build</option>
+                            <option value="Graphics Identity Suite">Corporate Brand Identity & Graphics</option>
+                        </select>
+                    </div>
+                    <div class="input-channel-row">
+                        <label>Project Parameters & Directives</label>
+                        <textarea id="clientBrief" class="cyber-terminal-input" rows="4" placeholder="Outline code limits, performance constraints, timeline goals, or logo requirements..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-cyber-action" style="width: 100%;">Transmit Operational Request</button>
+                </form>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Creative Ops Node. Fully Encrypted System Deployment.</p>
+    </footer>
+
+    <script src="portfolio-engine.js"></script>
+</body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services Matrix & Pricing Packages | Custom Options</title>
+    <link rel="stylesheet" href="resort-style.css">
+    <style>
+        .package-tier-list { margin: 20px 0 30px 0; padding-left: 20px; text-align: left; list-style: square; font-size: 13.5px; color: var(--text-muted); }
+        .package-tier-list li { margin-bottom: 10px; }
+        .package-price-tag { font-size: 26px; font-weight: 900; color: #FFF; margin: 15px 0; font-family: monospace; letter-spacing: -1px; }
+    </style>
+</head>
+<body>
+
+    <!-- 3D Background Matrix Elements -->
+    <div class="space-3d-environment">
+        <div class="cyber-grid-3d"></div>
+        <div class="geometric-node-3d" style="background: var(--tech-blue); top: 10%; left: 5%; opacity: 0.06;"></div>
+        <div class="geometric-node-3d" style="background: var(--cyber-neon); bottom: 10%; right: 5%; opacity: 0.06;"></div>
+    </div>
+
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">CREATIVE<span>.OPS</span></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Terminal</a></li>
+                    <li><a href="about.html">The Operator</a></li>
+                    <li><a href="services.html" class="active">Services Matrix</a></li>
+                    <li><a href="contact.html">Secure Connect</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-perspective-viewport">
+        <div class="interactive-3d-panel" id="threeDCard">
+            <h2 class="section-headline" style="text-align: center; margin-bottom: 10px; font-weight:900; text-transform:uppercase;">Operational <span>Capabilities</span></h2>
+            <div class="tagline-matrix" style="text-align: center; margin-bottom: 50px;">Select a Tier to Begin Core Intake</div>
+
+            <!-- SECTION A: WEBSITE CONFIGURATIONS (QUANTUM BLUE THEME) -->
+            <div id="web-packages" style="margin-top: 40px; margin-bottom: 70px;">
+                <div class="tagline-matrix" style="color: var(--tech-blue);">Deployment Matrix A</div>
+                <h3 style="font-size: 24px; font-weight: 800; text-transform: uppercase; margin-bottom: 30px;">Website Engineering <span style="color: var(--tech-blue);">Packages</span></h3>
+                
+                <div class="grid-matrix-three">
+                    <!-- Web Tier 1 -->
+                    <div class="service-deployment-node" style="border-color: rgba(0, 229, 255, 0.15);">
+                        <div class="pitch-badge" style="background: rgba(0, 229, 255, 0.1); color: var(--tech-blue);">Launch-Ready Base</div>
+                        <h4 style="font-size: 19px; font-weight: 800;">Corporate Launchpad</h4>
+                        <div class="package-price-tag">KES 25,000<span style="color: var(--tech-blue);">.00</span></div>
+                        <p style="font-size: 13px; color: var(--text-muted);">Dominate your local market online with a lightning-fast single-page interface. Built to turn casual clicks into premium leads.</p>
+                        <ul class="package-tier-list">
+                            <li><strong style="color: #FFF;">Premium Glassmorphism UI:</strong> Modern, clean aesthetics.</li>
+                            <li><strong style="color: #FFF;">Mobile Grid Mapping:</strong> Flawless cross-device display.</li>
+                            <li><strong style="color: #FFF;">Search Engine Ready:</strong> Built to rank smoothly on Google.</li>
+                            <li><strong style="color: #FFF;">Secure Contact Terminal:</strong> Direct script input filtering.</li>
+                        </ul>
+                        <button class="btn-cyber-action" style="width: 100%; border-color: var(--tech-blue); color: var(--tech-blue);" onclick="engageService('Web Package: Corporate Launchpad')">Deploy Architecture</button>
+                    </div>
+
+                    <!-- Web Tier 2 (FEATURED TIER) -->
+                    <div class="service-deployment-node" style="border-color: var(--tech-blue); box-shadow: 0 0 30px rgba(0, 229, 255, 0.12); background: rgba(0,0,0,0.35);">
+                        <div class="pitch-badge" style="background: var(--tech-blue); color: var(--deep-obsidian); font-weight: 900;">Highly Recommended</div>
+                        <h4 style="font-size: 19px; font-weight: 800;">Elite Authority Framework</h4>
+                        <div class="package-price-tag">KES 55,000<span style="color: var(--tech-blue);">.00</span></div>
+                        <p style="font-size: 13px; color: var(--text-muted);">The definitive architecture for expanding businesses, hotels, or agencies looking to scale operations, manage content, and project industry authority.</p>
+                        <ul class="package-tier-list">
+                            <li><strong style="color: #FFF;">4-5 High-Performance Pages:</strong> Complete multi-node routing.</li>
+                            <li><strong style="color: #FFF;">Content Manager Sync:</strong> Easy WordPress control panels.</li>
+                            <li><strong style="color: #FFF;">Hardened Channels:</strong> Advanced server-side security.</li>
+                            <li><strong style="color: #FFF;">Performance Asset Delivery:</strong> Fast layout optimization.</li>
+                        </ul>
+                        <button class="btn-cyber-action" style="width: 100%; background: var(--tech-blue); color: var(--deep-obsidian);" onclick="engageService('Web Package: Elite Authority Framework')">Deploy Full Suite</button>
+                    </div>
+
+                    <!-- Web Tier 3 -->
+                    <div class="service-deployment-node" style="border-color: rgba(0, 229, 255, 0.15);">
+                        <div class="pitch-badge" style="background: rgba(255,255,255,0.05); color: #FFF;">Advanced Node</div>
+                        <h4 style="font-size: 19px; font-weight: 800;">Custom Application / LMS</h4>
+                        <div class="package-price-tag">KES 90,000<span style="color: var(--tech-blue);">+</span></div>
+                        <p style="font-size: 13px; color: var(--text-muted);">Bespoke web applications built for complex database processes, online voting systems, or customized learning management modules.</p>
+                        <ul class="package-tier-list">
+                            <li><strong style="color: #FFF;">Custom Code Architecture:</strong> Optimized for speed and security.</li>
+                            <li><strong style="color: #FFF;">Thinkific / LMS System Sync:</strong> Seamless training modules.</li>
+                            <li><strong style="color: #FFF;">Penetration Testing:</strong> Pre-launch defensive source code audit.</li>
+                            <li><strong style="color: #FFF;">30-Day Support Aircover:</strong> Priority technical management.</li>
+                        </ul>
+                        <button class="btn-cyber-action" style="width: 100%; border-color: var(--tech-blue); color: var(--tech-blue);" onclick="engageService('Web Package: Custom App System')">Deploy Enterprise Node</button>
+                    </div>
+                </div>
+            </div>
+
+            <hr style="border: 0; border-top: 1px solid var(--border-hull); margin: 50px 0;">
+
+            <!-- SECTION B: GRAPHIC BLUEPRINTS (CYBERPUNK VOLT THEME) -->
+            <div id="graphics-packages" style="margin-top: 50px;">
+                <div class="tagline-matrix" style="color: var(--cyber-neon);">Deployment Matrix B</div>
+                <h3 style="font-size: 24px; font-weight: 800; text-transform: uppercase; margin-bottom: 30px;">Corporate Graphic <span style="color: var(--cyber-neon);">Packages</span></h3>
+                
+                <div class="grid-matrix-three">
+                    <!-- Graphic Tier 1 -->
+                    <div class="service-deployment-node" style="border-color: rgba(0, 255, 102, 0.15);">
+                        <div class="pitch-badge" style="background: rgba(0, 255, 102, 0.1); color: var(--cyber-neon);">Core Identity</div>
+                        <h4 style="font-size: 19px; font-weight: 800;">Signature Identity Blueprint</h4>
+                        <div class="package-price-tag">KES 10,000<span style="color: var(--cyber-neon);">.00</span></div>
+                        <p style="font-size: 13px; color: var(--text-muted);">Get noticed instantly with a custom corporate asset footprint, designed for premium high-resolution display across digital platforms.</p>
+                        <ul class="package-tier-list">
+                            <li><strong style="color: #FFF;">3 Scalable Vector Concepts:</strong> Pure custom brand assets.</li>
+                            <li><strong style="color: #FFF;">Premium 3D Logo Mockups:</strong> High-impact visual proofs.</li>
+                            <li><strong style="color: #FFF;">Master Source Files:</strong> Total format control (.AI, .SVG, .PNG).</li>
+                            <li><strong style="color: #FFF;">Infinite Scale Resolution:</strong> Pixel-perfect clarity on any monitor.</li>
+                        </ul>
+                        <button class="btn-cyber-action" style="width: 100%;" onclick="engageService('Graphics Package: Signature Identity')">Secure Assets</button>
+                    </div>
+
+                    <!-- Graphic Tier 2 (FEATURED TIER) -->
+                    <div class="service-deployment-node" style="border-color: var(--cyber-neon); box-shadow: 0 0 30px rgba(0, 255, 102, 0.12); background: rgba(0,0,0,0.35);">
+                        <div class="pitch-badge" style="background: var(--cyber-neon); color: var(--deep-obsidian); font-weight: 900;">Ultimate Brand Value</div>
+                        <h4 style="font-size: 19px; font-weight: 800;">Complete Brand Command Suite</h4>
+                        <div class="package-price-tag">KES 25,000<span style="color: var(--cyber-neon);">.00</span></div>
+                        <p style="font-size: 13px; color: var(--text-muted);">A complete, cohesive visual identity system designed to look sharp and build immediate market authority across physical and web profiles.</p>
+                        <ul class="package-tier-list">
+                            <li><strong style="color: #FFF;">3D Corporate Logo Framework:</strong> Scaled variations.</li>
+                            <li><strong style="color: #FFF;">Official Brand Book Layout:</strong> Hex palette and typography rules.</li>
+                            <li><strong style="color: #FFF;">Print-Ready Corporate Vectors:</strong> High-end business card blueprints.</li>
+                            <li><strong style="color: #FFF;">Social Media Asset Kits:</strong> Ready-to-use structural content covers.</li>
+                        </ul>
+                        <button class="btn-cyber-action" style="width: 100%; background: var(--cyber-neon); color: var(--deep-obsidian);" onclick="engageService('Graphics Package: Complete Brand Command')">Deploy Brand System</button>
+                    </div>
+
+                    <!-- Graphic Tier 3 -->
+                    <div class="service-deployment-node" style="border-color: rgba(0, 255, 102, 0.15);">
+                        <div class="pitch-badge" style="background: rgba(255,255,255,0.05); color: #FFF;">Venture Scale</div>
+                        <h4 style="font-size: 19px; font-weight: 800;">Omni-Channel Venture Bundle</h4>
+                        <div class="package-price-tag">KES 40,000<span style="color: var(--cyber-neon);">.00</span></div>
+                        <p style="font-size: 13px; color: var(--text-muted);">High-volume marketing assets tailored for fast-growing technology companies, agencies, or new product rollouts demanding premium design execution.</p>
+                        <ul class="package-tier-list">
+                            <li><strong style="color: #FFF;">Everything in Brand Command:</strong> Full system access configuration.</li>
+                            <li><strong style="color: #FFF;">Bespoke Marketing Collateral:</strong> High-conversion flyer templates.</li>
+                            <li><strong style="color: #FFF;">Premium Pitch Deck Blueprint:</strong> Capital raising presentation styles.</li>
+                            <li><strong style="color: #FFF;">Priority Asset Revision Queue:</strong> Accelerated design updates.</li>
+                        </ul>
+                        <button class="btn-cyber-action" style="width: 100%;" onclick="engageService('Graphics Package: Omni-Channel Bundle')">Deploy Venture Matrix</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Creative Ops Node. Hardware-Accelerated Web Engineering.</p>
+    </footer>
+
+    <script src="portfolio-engine.js"></script>
+</body>
+</html>
